@@ -4,14 +4,16 @@
 To write a python program for reading content from a CSV file.
 
 ## ALGORITHM:
-### Step 1:
-Import pandas as pd.
-### Step 2:
-Read the CSV file using read_csv method.
-### Step 3:
-Use head and tail method to get the required contents from the file.
-### Step 4:
-Use len() method to get the number of rows and columns.
+## Step 1:
+Import pandas module as pd.
+## Step 2:
+Using pd.read_csv() method read the CSV file.
+## Step 3:
+Using df.head() print the first 10 rows of the CSV file.
+## Step 4:
+Using df.tail() print the last 5 of the CSV file.
+## Step 5:
+Using len(df.axes[]) print the toal no.of rows and columns with argument 0 for row and argument 1 for column.
 ### Step 5:
 Display the result
 
